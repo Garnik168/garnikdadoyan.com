@@ -1,0 +1,1128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b1220" />
+  <meta name="description" content="Garnik Dadoyan — Principal GRC & IT Governance Leader. Gentle compliance, automation-first governance, and AI-ready risk programs." />
+
+  <title>Garnik Dadoyan — Principal GRC & IT Governance Leader</title>
+
+  <!-- Favicon (browser tab icon) -->
+  <link rel="icon" type="image/svg+xml"
+    href='data:image/svg+xml;utf8,
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="g1" cx="30%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="%2379f2d3" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="%237aa8ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="%23070b14" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="%23ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="%23ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="s" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="%23000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="108" height="108" rx="28" fill="url(%23g1)" filter="url(%23s)"/>
+  <rect x="10" y="10" width="108" height="108" rx="28" fill="url(%23g2)" />
+  <circle cx="44" cy="40" r="18" fill="%23ffffff" opacity="0.10"/>
+  <text x="64" y="76" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="44" font-weight="700" fill="%23eaf0ff" opacity="0.92">GD</text>
+</svg>' />
+
+  <!-- Social preview -->
+  <meta property="og:title" content="Garnik Dadoyan — Principal GRC & IT Governance Leader" />
+  <meta property="og:description" content="Gentle compliance • Automation-first governance • AI-ready risk programs" />
+  <meta property="og:type" content="website" />
+
+  <!--
+    Hey there 👋🏼 So you've decided to inspect the page. Respect.
+    This is a single-page landing site, so CSS is intentionally inlined to keep it dependency-free
+    and reduce additional network requests (simpler deploys + faster first render, hence - best practice).
+    If this grows into multiple pages, styles can be extracted into a dedicated stylesheet.
+    Bonus: if you’re reading this, you probably have a curious mind. Don’t be a stranger, say Hi ✌🏼 at curious@garnikdadoyan.com
+  -->
+
+  <style>
+    :root{
+      --bg0:#070b14;
+      --bg1:#0b1220;
+
+      --card:rgba(255,255,255,.06);
+      --card2:rgba(255,255,255,.09);
+
+      --text:#eaf0ff;
+      --muted:rgba(234,240,255,.74);
+      --muted2:rgba(234,240,255,.56);
+      --line:rgba(234,240,255,.12);
+
+      --accent:#79f2d3;     /* soft teal */
+      --accent2:#7aa8ff;    /* calm blue */
+      --warm:#ffd6a6;       /* gentle warmth */
+
+      --shadow: 0 20px 60px rgba(0,0,0,.45);
+
+      --r: 22px;
+      --r2: 16px;
+      --max: 1100px;
+      --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+
+    *{ box-sizing:border-box }
+      html,body{ height:100% }
+      body{
+        margin:0;
+        font-family:var(--font);
+        color:var(--text);
+        background:
+          radial-gradient(1200px 800px at 15% 10%, rgba(122,168,255,.18), transparent 55%),
+          radial-gradient(900px 600px at 80% 20%, rgba(121,242,211,.14), transparent 60%),
+          radial-gradient(700px 500px at 45% 90%, rgba(255,214,166,.10), transparent 60%),
+          linear-gradient(180deg, var(--bg0), var(--bg1));
+        overflow-x:hidden;
+      }
+    html{
+        background: var(--bg1);
+      }
+
+      body{
+        margin:0;
+        font-family:var(--font);
+        color:var(--text);
+        background: transparent;
+        overflow-x:hidden;
+      }
+
+      /* Fixed background layer */
+      body::before{
+        content:"";
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        background:
+          radial-gradient(1200px 800px at 15% 10%, rgba(122,168,255,.18), transparent 55%),
+          radial-gradient(900px 600px at 80% 20%, rgba(121,242,211,.14), transparent 60%),
+          radial-gradient(700px 500px at 45% 90%, rgba(255,214,166,.10), transparent 60%),
+          linear-gradient(180deg, var(--bg0), var(--bg1));
+      }
+
+    a{ color:inherit; text-decoration:none }
+    .wrap{
+      max-width:var(--max);
+      margin:0 auto;
+      padding: 28px 18px 120px;
+    }
+
+    /* Top nav */
+    .top{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:14px;
+      padding: 8px 4px 22px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width:0;
+    }
+    .mark{
+      width:36px;
+      height:36px;
+      border-radius:12px;
+
+      /* background orb */
+      background:
+        radial-gradient(18px 18px at 30% 30%, rgba(121,242,211,.9), rgba(121,242,211,0)),
+        radial-gradient(18px 18px at 70% 70%, rgba(122,168,255,.9), rgba(122,168,255,0)),
+        linear-gradient(135deg, rgba(255,255,255,.16), rgba(255,255,255,.02));
+
+      border:1px solid var(--line);
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+
+      /* GD centering */
+      position: relative;
+      display: grid;
+      place-items: center;
+    }
+
+    .mark::after{
+      content: "GD";
+      font-family: var(--font);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      color: rgba(234,240,255,.85);
+      text-shadow:
+        0 1px 2px rgba(0,0,0,.35),
+        0 0 12px rgba(122,168,255,.25);
+      pointer-events: none;
+    }
+    .brand strong{
+      font-size:14px;
+      letter-spacing:.2px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      display:block;
+      line-height:1.1;
+    }
+    .brand span{
+      font-size:12px;
+      color:var(--muted2);
+      display:block;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .nav{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+    .nav a{
+      font-size:13px;
+      color:var(--muted);
+      padding:10px 12px;
+      border-radius:999px;
+      border:1px solid transparent;
+      transition: all .18s ease;
+    }
+    .nav a:hover{
+      border-color: var(--line);
+      background: rgba(255,255,255,.04);
+      transform: translateY(-1px);
+    }
+
+    /* Hero */
+    .hero{
+      border:1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border-radius: calc(var(--r) + 6px);
+      box-shadow: var(--shadow);
+      padding: 26px;
+      position:relative;
+      overflow:hidden;
+    }
+    .hero:before{
+      content:"";
+      position:absolute;
+      inset:-2px;
+      background:
+        radial-gradient(650px 280px at 16% 18%, rgba(121,242,211,.14), transparent 62%),
+        radial-gradient(560px 280px at 86% 28%, rgba(122,168,255,.14), transparent 62%),
+        radial-gradient(520px 220px at 40% 95%, rgba(255,214,166,.10), transparent 60%);
+      pointer-events:none;
+    }
+    .heroGrid{
+      position:relative;
+      display:grid;
+      grid-template-columns: 150px 1fr;
+      gap: 22px;
+      align-items:center;
+    }
+
+    /* Avatar design */
+    .avatar{
+      width:150px;
+      height:150px;
+      border-radius: 30px;
+      border:1px solid rgba(234,240,255,.14);
+      background: rgba(255,255,255,.04);
+      overflow:hidden;
+      position:relative;
+      box-shadow:
+        0 18px 60px rgba(0,0,0,.45),
+        0 1px 0 rgba(255,255,255,.06) inset;
+      transform: translateZ(0);
+    }
+    .avatar img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+      filter: saturate(1.05) contrast(1.02);
+    }
+    /* soft inner highlight */
+    .avatar:before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        radial-gradient(120px 90px at 28% 20%, rgba(255,255,255,.22), transparent 60%),
+        radial-gradient(160px 130px at 80% 85%, rgba(121,242,211,.10), transparent 62%);
+      pointer-events:none;
+      mix-blend-mode: screen;
+      opacity:.65;
+    }
+    /* glass overlay */
+    .avatar:after{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.18), rgba(255,255,255,0) 42%),
+        linear-gradient(135deg, rgba(255,255,255,.10), rgba(255,255,255,0) 52%);
+      pointer-events:none;
+      opacity:.35;
+    }
+    /* premium rim */
+    .avatarRim{
+      position:absolute;
+      inset:0;
+      border-radius: 30px;
+      border:1px solid rgba(234,240,255,.10);
+      box-shadow:
+        0 0 0 1px rgba(0,0,0,.25) inset,
+        0 0 0 1px rgba(255,255,255,.05);
+      pointer-events:none;
+    }
+
+    .hTitle{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      min-width:0;
+    }
+    h1{
+      margin:0;
+      font-size: 34px;
+      letter-spacing:-.4px;
+      line-height:1.08;
+    }
+    .sub{
+      color:var(--muted);
+      font-size: 15px;
+      line-height:1.55;
+      margin-top: 2px;
+    }
+    .tagline{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top: 10px;
+    }
+    .pill{
+      font-size:12px;
+      color:rgba(234,240,255,.84);
+      border:1px solid var(--line);
+      padding:7px 10px;
+      border-radius:999px;
+      background: rgba(255,255,255,.03);
+    }
+
+    /* CTA stack */
+    .ctaStack{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-top: 16px;
+      align-items:flex-start;
+      width: 100%;
+    }
+    .ctaRow{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
+    }
+
+    .ctaRow.secondary{
+      width: 100%;
+    }
+
+    .ctaRow.secondary .btn{
+      flex: 1 1 0;
+      justify-content: center;
+      min-width: 0;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding: 11px 14px;
+      border-radius: 14px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      color: rgba(234,240,255,.92);
+      font-size: 13px;
+      transition: all .16s ease;
+      cursor:pointer;
+      user-select:none;
+    }
+    .btn:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,.07);
+      border-color: rgba(234,240,255,.18);
+    }
+    .btnPrimary{
+      background: linear-gradient(135deg, rgba(121,242,211,.18), rgba(122,168,255,.18));
+      border-color: rgba(234,240,255,.16);
+      box-shadow: 0 14px 34px rgba(0,0,0,.22);
+    }
+    .btnPrimary:hover{
+      background: linear-gradient(135deg, rgba(121,242,211,.24), rgba(122,168,255,.24));
+    }
+    .btnWide{
+      width:100%;
+      justify-content:center;
+    }
+    .btnIcon{
+      width:18px;height:18px;
+      opacity:.92;
+    }
+
+    /* Proof strip (mini-card) */
+    .proof{
+      margin-top: 14px;
+      border-radius: 16px;
+      border:1px solid rgba(234,240,255,.12);
+      background: rgba(255,255,255,.03);
+      padding: 12px 12px;
+      display:flex;
+      gap:10px;
+      align-items:center;
+      width: 100%;
+    }
+    .proofIcon{
+      width:34px;height:34px;
+      border-radius: 14px;
+      border:1px solid rgba(234,240,255,.14);
+      background:
+        radial-gradient(18px 18px at 30% 30%, rgba(121,242,211,.35), transparent 60%),
+        radial-gradient(18px 18px at 70% 70%, rgba(122,168,255,.35), transparent 60%),
+        rgba(255,255,255,.03);
+      display:grid;
+      place-items:center;
+      flex:0 0 auto;
+    }
+    .proofText strong{
+      display:block;
+      font-size: 12.5px;
+      letter-spacing:-.1px;
+      margin-bottom: 2px;
+      color: rgba(234,240,255,.90);
+    }
+    .proofText span{
+      display:block;
+      font-size: 12px;
+      color: rgba(234,240,255,.68);
+      line-height:1.5;
+    }
+
+    .metaLine{
+      margin-top: 14px;
+      font-size: 12px;
+      color: var(--muted2);
+    }
+    .metaLine strong{ color: rgba(234,240,255,.86); font-weight:600 }
+
+    /* Sections */
+    .section{
+      margin-top: 22px;
+      padding: 20px 4px 0;
+    }
+    .section h2{
+      margin: 18px 0 8px;
+      font-size: 18px;
+      letter-spacing:-.2px;
+    }
+    .section p{
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height:1.72;
+      font-size: 14px;
+      /*max-width: 78ch;*/
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .card{
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.035);
+      border-radius: var(--r2);
+      padding: 14px;
+      box-shadow: 0 10px 26px rgba(0,0,0,.18);
+      transition: transform .18s ease, background .18s ease, border-color .18s ease;
+      position:relative;
+      overflow:hidden;
+    }
+    .card:hover{
+      transform: translateY(-2px);
+      background: rgba(255,255,255,.055);
+      border-color: rgba(234,240,255,.18);
+    }
+    .card h3{
+      margin: 0 0 6px;
+      font-size: 14px;
+      letter-spacing:-.15px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    .card small{
+      color: var(--muted2);
+      line-height:1.55;
+      font-size: 12.5px;
+      display:block;
+    }
+    .card .mini{
+      width:18px;height:18px; opacity:.9;
+      color: var(--accent);
+      flex:0 0 auto;
+    }
+
+    .list{
+      display:grid;
+      gap:10px;
+    }
+    .item{
+      display:flex;
+      justify-content:space-between;
+      gap:14px;
+      align-items:flex-start;
+      padding: 14px;
+      border-radius: var(--r2);
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      transition: background .18s ease, transform .18s ease, border-color .18s ease;
+    }
+    .item:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,.05);
+      border-color: rgba(234,240,255,.18);
+    }
+    .item strong{ display:block; font-size: 13px; margin-bottom:4px; letter-spacing:-.1px }
+    .item span{ display:block; color: var(--muted); font-size: 12.5px; line-height:1.55 }
+    .item a{
+      white-space:nowrap;
+      font-size: 12px;
+      color: rgba(121,242,211,.95);
+      border:1px solid rgba(121,242,211,.22);
+      padding: 8px 10px;
+      border-radius: 12px;
+      background: rgba(121,242,211,.06);
+      transition: all .16s ease;
+    }
+    .item a:hover{
+      background: rgba(121,242,211,.10);
+      transform: translateY(-1px);
+    }
+
+    /* Cert badges */
+    .badges{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .badgeCard{
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      border-radius: var(--r2);
+      padding: 14px;
+      display:flex;
+      gap:12px;
+      align-items:center;
+      transition: transform .18s ease, background .18s ease, border-color .18s ease;
+    }
+    .badgeCard:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,.05);
+      border-color: rgba(234,240,255,.18);
+    }
+    .badgeCard img{
+      width:56px;
+      height:56px;
+      border-radius: 12px;
+      border:1px solid rgba(234,240,255,.12);
+      /*background: radial-gradient(rgba(255,255,255,.19), rgba(0,0,0,0));*/
+      background:
+        radial-gradient(18px 18px at 35% 35%, rgba(121,242,211,.35), transparent 90%),
+        radial-gradient(18px 18px at 65% 65%, rgba(122,168,255,.35), transparent 90%),
+        rgba(255,255,255,.03);
+      object-fit:cover;
+      box-shadow: 0 10px 26px rgba(0,0,0,.18);
+    }
+    .badgeCard strong{
+      display:block;
+      font-size: 13px;
+      letter-spacing:-.1px;
+      margin-bottom: 2px;
+    }
+    .badgeCard span{
+      display:block;
+      color: var(--muted2);
+      font-size: 12px;
+      line-height:1.45;
+      margin-bottom: 6px;
+    }
+    .badgeCard a{
+      display:inline-block;
+      font-size: 12px;
+      color: rgba(121,242,211,.95);
+      border:1px solid rgba(121,242,211,.22);
+      padding: 8px 10px;
+      border-radius: 12px;
+      background: rgba(121,242,211,.06);
+      transition: all .16s ease;
+      white-space:nowrap;
+    }
+    .badgeCard a:hover{
+      background: rgba(121,242,211,.10);
+      transform: translateY(-1px);
+    }
+
+    /* Privacy banner */
+    .privacy{
+      position: fixed;
+      left: 14px;
+      right: 14px;
+      bottom: 14px;
+      max-width: var(--max);
+      margin: 0 auto;
+      z-index: 50;
+      border-radius: 18px;
+      border:1px solid rgba(234,240,255,.14);
+      background: rgba(11,18,32,.72);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 16px 50px rgba(0,0,0,.5);
+      transform: translateY(140%);
+      opacity: 0;
+      transition: transform .28s ease, opacity .28s ease;
+      overflow:hidden;
+    }
+    .privacy.show{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    .privacyInner{
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+      padding: 14px 14px;
+    }
+    .privacyIcon{
+      width:34px;height:34px;
+      border-radius: 14px;
+      border:1px solid rgba(234,240,255,.14);
+      background:
+        radial-gradient(18px 18px at 30% 30%, rgba(121,242,211,.35), transparent 60%),
+        radial-gradient(18px 18px at 70% 70%, rgba(122,168,255,.35), transparent 60%),
+        rgba(255,255,255,.03);
+      display:grid;
+      place-items:center;
+      flex: 0 0 auto;
+    }
+    .privacyText{
+      min-width:0;
+      flex:1;
+    }
+    .privacyText strong{
+      display:block;
+      font-size: 12.5px;
+      letter-spacing:-.1px;
+      margin-bottom: 4px;
+      color: rgba(234,240,255,.92);
+    }
+    .privacyText span{
+      display:block;
+      font-size: 12px;
+      color: rgba(234,240,255,.70);
+      line-height:1.45;
+    }
+    .privacyActions{
+      display:flex;
+      gap:8px;
+      align-items:center;
+      flex: 0 0 auto;
+    }
+    .pbtn{
+      font-size:12px;
+      padding: 9px 10px;
+      border-radius: 12px;
+      border:1px solid rgba(234,240,255,.14);
+      background: rgba(255,255,255,.03);
+      color: rgba(234,240,255,.88);
+      cursor:pointer;
+      transition: all .16s ease;
+      white-space:nowrap;
+    }
+    .pbtn:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,.06);
+      border-color: rgba(234,240,255,.20);
+    }
+    .pbtn.primary{
+      border-color: rgba(121,242,211,.22);
+      background: rgba(121,242,211,.08);
+      color: rgba(121,242,211,.95);
+    }
+    .pbtn.primary:hover{
+      background: rgba(121,242,211,.12);
+    }
+
+    /* Footer */
+    .footer{
+      margin-top: 26px;
+      padding: 18px 4px 0;
+      border-top: 1px solid var(--line);
+      color: var(--muted2);
+      display:flex;
+      justify-content:space-between;
+      gap: 12px;
+      flex-wrap:wrap;
+      font-size: 12px;
+    }
+    .footer b{ color: rgba(234,240,255,.82); font-weight:600; }
+
+    /* Responsive */
+    @media (max-width: 860px){
+      .grid{ grid-template-columns: 1fr; }
+      .badges{ grid-template-columns: 1fr; }
+      .heroGrid{ grid-template-columns: 1fr; }
+      .avatar{ width:128px;height:128px;border-radius: 26px; }
+      .avatarRim{ border-radius: 26px; }
+      h1{ font-size: 30px; }
+      .nav{ display:none; }
+      .top{ padding-bottom: 12px; }
+      .ctaStack{ width:100%; }
+      .ctaRow{ width:100%; }
+      .ctaRow .btn{ flex:1; justify-content:center; }
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce){
+      *{ transition: none !important; scroll-behavior:auto !important; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand">
+        <div class="mark" aria-hidden="true"></div>
+        <div style="min-width:0">
+          <strong>Garnik Dadoyan</strong>
+          <span>GRC • IT Governance • Security & Privacy Tech Audit</span>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#help">How I help</a>
+        <a href="#work">Solutions</a>
+        <a href="#media">Publications</a>
+        <a href="#certs">Certifications</a>
+<!--        <a href="#contact">Contact</a>-->
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="heroGrid">
+          <div class="avatar">
+            <img src="assets/Photo.jpeg" alt="Garnik Dadoyan" />
+            <div class="avatarRim" aria-hidden="true"></div>
+          </div>
+
+          <div class="hTitle">
+            <h1>Garnik Dadoyan</h1>
+
+            <div class="sub">
+              <b>Principal GRC & IT Governance Leader</b>
+              <p>Building scalable governance systems across regulated environments — automation-first, human-centered by design</p>
+            </div>
+
+            <div class="tagline" aria-label="Focus areas">
+              <span class="pill">IT Governance</span>
+              <span class="pill">AI Ready Governance</span>
+              <span class="pill">Automation-First</span>
+              <span class="pill">Gentle Compliance</span>
+              <span class="pill">Privacy Tech Audit</span>
+              <span class="pill">GRC Frameworks Design</span>
+
+
+            </div>
+
+            <div class="ctaStack" id="contact">
+              <button class="btn btnPrimary btnWide" id="downloadVcf" type="button" aria-label="Save contact card">
+                <svg class="btnIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.6"/>
+                  <path d="M9 7h6M9 11h6M9 15h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                </svg>
+                Save my contact (vCard)
+              </button>
+
+              <div class="ctaRow secondary">
+                <a class="btn" id="emailBtn" href="mailto:hello@garnikdadoyan.com" aria-label="Email Garnik">
+                  <svg class="btnIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M4 6h16v12H4V6Z" stroke="currentColor" stroke-width="1.6" />
+                    <path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Email
+                </a>
+
+                <a class="btn" id="linkedinBtn" href="https://www.linkedin.com/in/garnikdadoyan/" target="_blank" rel="noreferrer" aria-label="Open LinkedIn">
+                  <svg class="btnIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M6.5 10V18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                    <path d="M6.5 6.6h.01" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+                    <path d="M10.5 18v-4.3c0-1.6.9-2.6 2.2-2.6s2.3 1 2.3 2.6V18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  LinkedIn
+                </a>
+
+                <a class="btn" id="callBtn" href="tel:+16468774568" aria-label="Call Garnik">
+                  <svg class="btnIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M8.2 4.8 6.9 6.1c-.6.6-.7 1.6-.2 2.3l2.2 3.1c.4.6 1.2.9 2 .7l1.8-.4c.7-.2 1.4.2 1.7.9l.7 1.8c.3.8 0 1.7-.7 2.2l-1.3.9c-1.1.7-2.5.7-3.6 0-2.8-1.7-5.3-4.2-7-7-.7-1.1-.7-2.5 0-3.6l.9-1.3c.5-.7 1.4-1 2.2-.7l1.8.7c.7.3 1.1 1 1 1.7l-.4 1.8c-.2.8.1 1.6.7 2l3.1 2.2c.7.5 1.7.4 2.3-.2l1.3-1.3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Call
+                </a>
+              </div>
+
+              <div class="proof" aria-label="Proof strip">
+                <div class="proofIcon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 2 4 5.5V11c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5.5L12 2Z" stroke="rgba(234,240,255,.92)" stroke-width="1.4"/>
+                    <path d="m9 12 2 2 4-5" stroke="rgba(121,242,211,.95)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="proofText">
+                  <strong>Verified credentials • Enterprise experience • Automation-first</strong>
+                  <span>AI-ready governance, culture-driven adoption, and scalable evidence systems — reducing risk without slowing teams down</span>
+                </div>
+              </div>
+
+              <div class="metaLine">
+                <strong>Open to:</strong> Principal / Staff GRC & IT Governance roles • Select advisory engagements • NYC or remote
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <h2>About</h2>
+        <p>
+          I help organizations build <b>high-trust governance and privacy programs that scale</b> — from establishing strong foundations to maturing what already exists.
+          My approach is <b>Gentle Compliance</b>: collaborative, engineering-friendly, and designed to strengthen culture while protecting businesses from high-impact risk.
+        </p>
+        <p>
+          I <b>lead through influence</b> across engineering, security, product, legal, and leadership — turning complex regulatory and technical requirements into <b>clear governance frameworks, durable evidence standards, and automation that lasts</b>.
+          The goal is simple: enable teams to move faster with confidence, without accumulating invisible compliance debt.
+        </p>
+        <p>
+          <b>Focused on building future-ready governance that evolves with regulation, technology, and organizational change.</b>
+        </p>
+      </section>
+
+      <section class="section" id="help">
+        <h2>How I help</h2>
+        <p>Clear, practical systems that reduce risk — and feel good to operate</p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>
+              <svg class="mini" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2 4 5.5V11c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5.5L12 2Z" stroke="currentColor" stroke-width="1.6"/>
+                <path d="m9 12 2 2 4-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Enterprise privacy compliance
+            </h3>
+            <small>Commitments validation, audit support, evidence standards, and launch readiness in high-stakes environments.</small>
+          </div>
+
+          <div class="card">
+            <h3>
+              <svg class="mini" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M7 5v4M12 10v4M17 15v4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+              GRC frameworks &amp; maturity
+            </h3>
+            <small>Governance, control mapping, risk scoring, dashboards, and operating rhythms that teams actually follow.</small>
+          </div>
+
+          <div class="card">
+            <h3>
+              <svg class="mini" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 17V7m0 10h10m-10 0 3-3m7-7-7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Automation &amp; SDLC integration
+            </h3>
+            <small>From evidence collection to continuous monitoring — reducing manual work and scaling compliance safely.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <h2>Solutions</h2>
+        <p>Pick-and-place engagements, built for measurable outcomes</p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Privacy Tech Audit &amp; Evidence Review</h3>
+            <small>Validate controls, tighten evidence quality, and deliver crisp remediation plans with stakeholders aligned.</small>
+          </div>
+
+          <div class="card">
+            <h3>GRC Program Design &amp; Maturity Uplift</h3>
+            <small>Risk registers, control libraries, operating models, and dashboards — designed to be adopted, not ignored.</small>
+          </div>
+
+          <div class="card">
+            <h3>Compliance Automation / SDLC Integration</h3>
+            <small>Automation-first workflows that keep engineering moving while improving audit readiness and continuous assurance.</small>
+          </div>
+
+          <div class="card">
+            <h3>IT &amp; AI Governance</h3>
+            <small>Practical governance for modern systems — aligning risk ownership, visibility, and decision-ready reporting.</small>
+          </div>
+
+          <div class="card">
+            <h3>Vendor / TPRM Assessments</h3>
+            <small>Third-party risk reviews with actionable remediation paths and evidence expectations that scale.</small>
+          </div>
+
+          <div class="card">
+            <h3>Training &amp; Enablement</h3>
+            <small>Friendly, pragmatic education that shifts culture: “compliance as confidence,” not fear.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="wins">
+        <h2>Signature wins</h2>
+        <p>High-level summaries, shared thoughtfully. Details available in interviews</p>
+
+        <div class="list">
+          <div class="item">
+            <div>
+              <strong>Created and scaled a privacy commitments framework with risk mitigations</strong>
+              <span>Built repeatable verification patterns and reporting for enterprise-scale privacy programs.</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <div>
+              <strong>Designed evidence verification workflows and automation for large social platforms</strong>
+              <span>Improved evidence consistency and audit readiness through standardized verification and tooling alignment.</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <div>
+              <strong>Led IT governance improvements for a financial organization</strong>
+              <span>Optimized processes while shifting culture toward automation, AI integration, and cross-functional collaboration.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="media">
+        <h2>Publications &amp; Videos</h2>
+        <p>Selected highlights — curated for signal, not noise</p>
+
+        <div class="list">
+          <div class="item">
+            <div>
+              <strong>Holistic Approach to Privacy and Security in Tech (DZone)</strong>
+              <span>Practical perspective on building privacy and security as systems — not paperwork.</span>
+            </div>
+            <a href="https://dzone.com/articles/holistic-approach-to-privacy-and-security-in-tech" target="_blank" rel="noreferrer">Read</a>
+          </div>
+
+          <div class="item">
+            <div>
+              <strong>How to Correctly Plan and Implement a GRC Strategy (HackerNoon)</strong>
+              <span>A structured guide for implementing GRC in a real digital business.</span>
+            </div>
+            <a href="https://hackernoon.com/how-to-correctly-plan-and-implement-a-grc-strategy-in-your-digital-business" target="_blank" rel="noreferrer">Read</a>
+          </div>
+
+          <div class="item">
+            <div>
+              <strong>Experts Shorts: GRC &amp; Risk Management (LinkedIn video)</strong>
+              <span>Short-form insights on scalable GRC strategy and risk thinking.</span>
+            </div>
+            <a href="https://www.linkedin.com/posts/solvdinc_expertsshorts-grc-riskmanagement-activity-7237446807570583552-x4HU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC9JxwkBnp5M4uLgaN2xBCWyhLnszx-joMQ" target="_blank" rel="noreferrer">Watch</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="certs">
+        <h2>Certifications (verified via Credly)</h2>
+        <p>Click “Verify” to view public credential pages.</p>
+
+        <div class="badges">
+          <div class="badgeCard">
+            <img src="assets/CGRC%20emblem.png" alt="CGRC badge emblem" />
+            <div>
+              <strong>ISC2 CGRC</strong>
+              <span>Certified in Governance, Risk and Compliance</span>
+              <a href="https://www.credly.com/badges/26dd103a-3767-4802-9e2d-23aed1c30c21/public_url" target="_blank" rel="noreferrer">Verify</a>
+            </div>
+          </div>
+
+          <div class="badgeCard">
+            <img src="assets/CC%20emblem.png" alt="CC badge emblem" />
+            <div>
+              <strong>ISC2 CC</strong>
+              <span>Certified in Cybersecurity</span>
+              <a href="https://www.credly.com/badges/9c715054-9c9e-4bc8-aba1-a385a32352c8/linked_in_profile" target="_blank" rel="noreferrer">Verify</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact2">
+        <h2>Contact</h2>
+        <p>
+          The fastest way to reach me is email or LinkedIn. You can also save my contact card to keep everything in one place.
+        </p>
+
+        <div class="ctaStack">
+          <button class="btn btnPrimary btnWide" type="button" onclick="document.getElementById('downloadVcf').click()">
+            <svg class="btnIcon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 3v10m0 0 4-4m-4 4-4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5 17v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            Save my contact (vCard)
+          </button>
+
+          <div class="ctaRow secondary">
+            <a class="btn" href="mailto:hello@garnikdadoyan.com">Email</a>
+            <a class="btn" href="https://www.linkedin.com/in/garnikdadoyan/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn" href="tel:+16468774568">Call</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>© <span id="year"></span> <b>Garnik Dadoyan</b></div>
+        <div>No cookies • No tracking • No analytics • Built with care • Crafted by a human and an AI friend 🤍</div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Privacy banner -->
+  <aside class="privacy" id="privacyBanner" aria-live="polite" aria-label="Privacy notice">
+    <div class="privacyInner">
+      <div class="privacyIcon" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2 4 5.5V11c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5.5L12 2Z" stroke="rgba(234,240,255,.9)" stroke-width="1.4"/>
+          <path d="m9 12 2 2 4-5" stroke="rgba(121,242,211,.95)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <div class="privacyText">
+        <strong>Privacy &amp; cookies</strong>
+        <span>This site uses no cookies, analytics, or tracking pixels. If you contact me, I’ll only use your info to respond.</span>
+      </div>
+
+      <div class="privacyActions">
+        <button class="pbtn primary" id="privacyOk" type="button">Got it</button>
+        <button class="pbtn" id="privacyMore" type="button">Learn</button>
+      </div>
+    </div>
+  </aside>
+
+  <script>
+    // ========= Profile (vCard + contact links) =========
+    const PROFILE = {
+      firstName: "Garnik",
+      lastName: "Dadoyan",
+      title: "Principal GRC & IT Governance Leader",
+      phoneE164: "+16468774568",
+      email: "contact@garnikdadoyan.com",
+      website: "https://garnikdadoyan.com",
+      linkedin: "https://www.linkedin.com/in/garnikdadoyan/",
+      city: "New York, NY"
+    };
+
+    // Apply profile links (reminder to self, this is where i make changes later if needed)
+    const emailBtn = document.getElementById("emailBtn");
+    const linkedinBtn = document.getElementById("linkedinBtn");
+    const callBtn = document.getElementById("callBtn");
+
+    if (emailBtn) emailBtn.href = `mailto:${PROFILE.email}`;
+    if (linkedinBtn) linkedinBtn.href = PROFILE.linkedin;
+    if (callBtn) callBtn.href = `tel:${PROFILE.phoneE164}`;
+
+    // Footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // vCard generator (vCard 3.0 - widely compatible)
+    function buildVCard() {
+      const fullName = `${PROFILE.firstName} ${PROFILE.lastName}`;
+      const lines = [
+        "BEGIN:VCARD",
+        "VERSION:3.0",
+        `N:${PROFILE.lastName};${PROFILE.firstName};;;`,
+        `FN:${fullName}`,
+        `TITLE:${PROFILE.title}`,
+        `TEL;TYPE=CELL:${PROFILE.phoneE164}`,
+        `EMAIL;TYPE=INTERNET:${PROFILE.email}`,
+        `URL:${PROFILE.website}`,
+        `item1.URL:${PROFILE.linkedin}`,
+        "item1.X-ABLabel:LinkedIn",
+        `ADR;TYPE=WORK:;;;${PROFILE.city};;;`,
+        "END:VCARD"
+      ];
+      return lines.join("\r\n");
+    }
+
+    function downloadVCard() {
+      const vcf = buildVCard();
+      const blob = new Blob([vcf], { type: "text/vcard;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${PROFILE.firstName}_${PROFILE.lastName}.vcf`;
+      document.body.appendChild(a);
+      a.click();
+
+      setTimeout(() => {
+        URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+      }, 0);
+    }
+
+    document.getElementById("downloadVcf").addEventListener("click", downloadVCard);
+
+    // Privacy banner behavior
+    const banner = document.getElementById("privacyBanner");
+    const ok = document.getElementById("privacyOk");
+    const more = document.getElementById("privacyMore");
+    const key = "gd_privacy_banner_dismissed";
+
+    function maybeShowBanner() {
+      if (sessionStorage.getItem(key) === "1") return;
+      if (window.scrollY > 120) banner.classList.add("show");
+    }
+
+    window.addEventListener("scroll", maybeShowBanner, { passive: true });
+
+    ok.addEventListener("click", () => {
+      sessionStorage.setItem(key, "1");
+      banner.classList.remove("show");
+    });
+
+    more.addEventListener("click", () => {
+      // Scroll to the footer, where the privacy stance is reinforced
+      document.querySelector("footer").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  </script>
+</body>
+</html>
